@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://samriddhicollege.edu.np/">
+    <title>Html Tables | Links | Lists | Images</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            border: 1px dashed black;
+            width: 50%;
+            border-collapse: collapse;
+            border-spacing: 30px;
+
+        }
+
+        th {
+            border: 1px dashed black;
+            background-color: #e590a1;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px dashed black;
+            border-color: #bb5609;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+
+        tr {
+            border: 1px dashed black;
+            border-color: #bb5609;
+            border-collapse: collapse;
+            height: 40px;
+
+        }
+
+        a:link {
+            color: green;
+            text-decoration: none;
+        
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            text-decoration: none;
+        }
+
+        caption {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Html Table</h1>
+    <br>
+    <h2>HTML Table Borders</h2>
+    <table>
+        <tr>
+            <th>SN</th>
+            <th>Course</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Computer Engineering</td>
+            <td>4 Years</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Physiotherapy</td>
+            <td>5 Years</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>BBA</td>
+            <td>3 Years</td>
+        </tr>
+    </table>
+    <br><!--New Table Starts Here-->
+    <h2>Vertical Table Headers</h2>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <td>Jill</td>
+            <td>Eve</td>
+        </tr>
+        <tr>
+            <th>Lastname</th>
+            <td>Smith</td>
+            <td>Jackson</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>94</td>
+            <td>50</td>
+        </tr>
+    </table>
+    <br> <!--New Table Starts Here-->
+    <h2>Header for Multiple Columns (Colspan and Rowspan)</h2>
+    <table>
+        <tr>
+            <th colspan="2">Full Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Jill</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>555-1234</td>
+        </tr>
+        <tr>
+            <td>555-8745</td>
+        </tr>
+    </table>
+
+    <br>
+    <!--New Table Starts Here-->
+    <h2>Table Caption</h2>
+    <table>
+        <caption>Note: This table describes about names</caption>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+    </table>
+    <br>
+    <!--New Table Starts Here-->
+    <h2>Cellpadding & Cellspacing Attributes</h2>
+    <table cellpadding="5" cellspacing="5">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>Ramesh Karki</td>
+            <td>5000</td>
+        </tr>
+         <tr>
+            <td>Swoastik</td>
+            <td>2000</td>
+        </tr>
+    </table>
+    <br><br>
+    <h1>Html Links</h1>
+    <br>
+    <h2>HTML Links - Use an Image as a Link</h2>
+    <a href="#">
+        <img src="nepal.jpg" alt="Image Des" style="width:150px;height:150px;">
+    </a>
+    <br><br><a href="mailto:someone@example.com">Send email</a>
+    <br><br>
+    <a href="about" title="Go to Portfolio of Samriddhi College">Visit Samriddhi College</a>
+</body>
+
+</html>
